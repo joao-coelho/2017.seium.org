@@ -1,4 +1,4 @@
-#speakers
+#transports
   background-attachment: fixed
   background-image: url(image_path("backgrounds/dark-stuff.png"))
   background-position: center center
@@ -9,15 +9,24 @@
   -o-background-size: cover
   height: 100%
   padding-bottom: 30px
+  .section-title
+    margin-top: 70px
 
-.speakers-title
-  float: right
+.location
+  background-image: url(image_path("icons/location-icon.png"))
 
+.train
+  background-image: url(image_path("icons/train-icon.png"))
 
-.speaker-img
-  border-radius: 50%
-  width: 175px
-  height: 175px
+.bus
+  background-image: url(image_path("icons/bus-icon.png"))
+
+.car
+  background-image: url(image_path("icons/car-icon.png"))
+
+.transport-img
+  width: 64px
+  height: 64px
   float: none
   margin: 0 auto
   overflow: hidden
@@ -29,12 +38,12 @@
   background-position: center center
   background-repeat: no-repeat
 
-.speaker-pic
+.transport-pic
   width: 100%
   height: auto
-  min-height: 175px
+  min-height: 64px
 
-.speaker-name
+.transport-name
   text-transform: uppercase
   font-weight: bold
   font-size: 26px
@@ -49,22 +58,26 @@
     margin: 0 auto
     border-bottom: 4px solid #fff
 
-.speaker-position
-  font-weight: lighter
-  text-transform: uppercase
-  font-size: 16px
-  color: #fff
-  margin: 10px 0 0
-
-.speaker-company
-  margin-bottom: 0
-  text-transform: uppercase
-  font-size: 14px
-  color: #0098ff
-  font-weight: bold
-
-.speaker-social
+#google-maps
   margin-top: 15px
+  width: 80%
+  height: 400px
+  @media (max-width: 767px)
+    width: 100%
+
+#train
+  background-attachment: fixed
+  background-image: url(image_path("backgrounds/light-stuff.png"))
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  height: 100%
+  width: 100%
+  padding-bottom: 30px
+  margin-top: 50px
 
 .speaker-indicators div.rn-carousel-indicator span
   font-size: 20px
@@ -94,7 +107,7 @@ div.organization-indicators span
     font-size: 24px
     color: #0098ff
 
-.speakers-list
+.transports-list
   text-align: center
   max-width: 1360px
   min-width: 280px
@@ -108,7 +121,7 @@ div.organization-indicators span
     flex-direction: row
 
 
-.speakers-list-cell
+.transports-list-cell
   min-width: 200px
   text-align: center
   align-self: flex-start

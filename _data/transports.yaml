@@ -1,0 +1,11 @@
+- name: location
+  pic: location-icon.png
+
+#- name: train
+#  pic: train-icon.png
+
+#- name: bus
+#  pic: bus-icon.png
+
+#- name: car
+# pic: car-icon.png
