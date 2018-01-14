@@ -75,7 +75,8 @@
 
 
 - name: DPUM
-  desc: <p>E como não podia deixar de ser, temos mais desafios algorítmicos para ti! </p><p>Durante a semana, usa a linguagem em que te sentes mais confortável e resolve os problemas para ganhares prémios.</p>
+  desc: E como não podia deixar de ser, temos mais desafios algorítmicos para ti!
+        Durante a semana, usa a linguagem em que te sentes mais confortável e resolve os problemas para ganhares prémios.
   class: light
   prizes:
     - name: A anunciar

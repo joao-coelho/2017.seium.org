@@ -1,4 +1,4 @@
-- name: location
+- name: localização
   pic: location-icon.png
 
 #- name: train
