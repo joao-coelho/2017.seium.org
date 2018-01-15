@@ -1,6 +1,7 @@
 
 - name: Maior Número de Badges
-  desc: Durante a semana temos várias badges que podes obter participando nas atividades, falando com as empresas, vencendo desafios e concursos mas também com algumas surpresas! Diverte-te à procura das badges, os verdadeiros colecionadores irão obter prémios muito tentadores para adicionar à coleção!
+  desc: Durante toda a semana, podes colecionar badges por participares nas atividades, falar com empresas e oradores ou vencer desafios. E, em alguns casos, irás mesmo precisar dos teus melhores dotes de Sherlock Holmes!<br>
+        <br>Diverte-te e encontra os badges! Só os melhores colecionadores terão oportunidade de ganhar um destes fantásticos prémios.
   class: dark
   prizes:
     - name: A anunciar
@@ -20,45 +21,43 @@
 
 
 - name: Melhor Fotografia
-  desc: Gostas de tirar fotografias? Então este desafio é para ti! Publica a melhor foto no facebook da SEI ou no instagram para vencer este desafio! Para isso, no facebook usa a hashtag '#SEI18' em publicações públicas e no instagram identifica o @cesiuminho e certifica-te que tens o perfil público.
+  desc: Gostas de tirar fotografias? Então este desafio é para ti! Publica a melhor foto no facebook da SEI ou no instagram para vencer este desafio!<br>
+        <br>Para isso, no facebook usa a hashtag '#SEI18' em publicações públicas e no instagram identifica o @cesiuminho e certifica-te que tens o perfil público.
   class: light
   prizes:
     - name: A anunciar
-      num: 1
       link:
       img: fa-trophy
 
 
 - name: Desafio do dia
-  desc: Diariamente apresentamos-te um desafio simples. Para ganhares, só tens de ser o mais rápido a resolvê-lo.
+  desc: Todos os dias há um novo desafio.<br>
+        <br>Tenta a tua sorte! Só tens que ser o mais rápido a resolvê-lo!
 
   class: light
   prizes:
     - name: A anunciar
-      num: 1
       link:
       img: fa-trophy
 
 
 - name: Tudo por um badge!
-  desc: Queres mesmo ter o maior número de badges? Vence estes pequenos desafios e podes ganhar mais um!
+  desc: Queres mesmo ter o maior número de badges?<br>
+        <br>Vence estes pequenos desafios e podes ganhar mais um!
   class: dark
   prizes:
-    - name: Badge
-      num: 1
+    - name: Badge extra
       link: 
       img: fa-star
 
-
-- name: Torneio de Videojogos
-  desc: Torneio de 32 equipas ou participantes, consoante o jogo, jogado online. A final será ao vivo, no recinto da SEI, no último dia do evento.
-  class: light
-  prizes:
-    - name: A anunciar
-      num: 1
-      link:
-      img: fa-star
-
+#- name: Torneio de Videojogos
+#  desc: Torneio de 32 equipas ou participantes, consoante o jogo, jogado online. A final será ao vivo, no recinto da SEI, no último dia do evento.
+#  class: light
+#  prizes:
+#    - name: A anunciar
+#      num: 1
+#      link:
+#      img: fa-star
 
 - name: Desafio de Segurança CTF
   desc: Desafio Capture The Flag, onde ganhas pontos relativos ao número de flags que capturas, vencendo o participante com maior número de capturas. 
